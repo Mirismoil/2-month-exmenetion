@@ -1,0 +1,31 @@
+.wrapper-site__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.wrapper-site__title {
+  padding: 31px 32px 28px 35px;
+  width: 193px;
+  height: 201px;
+  background: #ffffff;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+}
+.wrapper-site__title + .wrapper-site__title{
+    margin-left: 31px;
+}
+.wrapper-site__title > a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration: none;
+  color: #333333;
+}
+.site-title__img{
+    margin-bottom: 24px;
+}

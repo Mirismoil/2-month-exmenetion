@@ -1,0 +1,30 @@
+:root {
+  --crl-body-bg: #f9f9f9f9;
+  --crl-wrap-burger-bg: #333;
+  --crl-wrap-burger: #fff;
+  --crl-header-bg: #f9f8f8;
+  --crl-header-inner: #333333;
+  --crl-box-text:#949494;
+  --crl-box-strong:#333333;
+}
+.dark {
+  --crl-body-bg: black;
+  --crl-wrapper-title: grey;
+  --crl-header-inner: #fff;
+  --crl-wrap-burger-bg: #fff;
+  --crl-wrap-burger: black;
+  --crl-box-strong:white;
+}
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--crl-body-bg);
+  font-family: "Futura PT", sans-serif;
+}
+img {
+  object-fit: cover;
+}

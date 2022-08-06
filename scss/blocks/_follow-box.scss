@@ -1,0 +1,68 @@
+.section-follow {
+    margin-bottom: 216px;
+  background-image: url("../../images/maskblue.png");
+  background-repeat: no-repeat;
+}
+.follow-box {
+  position: relative;
+  padding: 53px 0px 88px 230px;
+}
+.follow-box__img {
+  top: -108px;
+  left: 716px;
+  position: absolute;
+}
+.follow-box__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.follow-box__form {
+  display: flex;
+  align-items: center;
+}
+.follow-form__input {
+  margin-right: 21px;
+  padding: 18px 0px 12px 22px;
+  display: inline-block;
+  width: 335px;
+  height: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  color: #949494;
+  background: #ffffff;
+  border-radius: 5px;
+}
+.follow-form__input:focus{
+  outline-color: #ffbd54;
+}
+.follow-form__button {
+  padding: 15px 53px 14px 51px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  background: #333333;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.follow-form__button:hover {
+  color: #333333;
+  background: #ffbd54;
+  border-radius: 3px;
+}
+.follow-form__button:active {
+  color: #333333;
+  background: #ffbd54;
+  border-radius: 3px;
+  opacity: 0.5;
+}
