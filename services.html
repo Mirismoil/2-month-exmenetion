@@ -4,56 +4,80 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="./css/main.css"> -->
-    <link rel="stylesheet" href="./css/min.css">
-    <title>Veterinary</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./main.css"/>
+    <title>services</title>
   </head>
   <body>
-    <main>
-      <section class="site-imgs">
-        <div class="container">
-          <div class="wrapper-site">
-            <ul class="wrapper-site__list">
-              <li  class="wrapper-site__title">
-                  <a href="#link">
-                    <img class="site-title__img" src="./images/fil.svg" alt="scaner person">
-                  УЗИ диагностика
-                </a>
-              </li>
-              <li  class="wrapper-site__title">
-                <a href="#link">
-                  <img class="site-title__img" src="./images/ukol.svg" alt="injection" >
-                  УЗИ диагностика
-                </a>
-              </li>
-              <li  class="wrapper-site__title">
-                <a href="#link">
-                  <img class="site-title__img" src="./images/kalendar1.svg" alt="daetes" >
-                  УЗИ диагностика
-                </a>
-              </li>
-              <li  class="wrapper-site__title">
-                <a href="#link">
-                  <img class="site-title__img" src="./images/lekastva.svg" alt="drug" >
-                  УЗИ диагностика
-                </a>
-              </li>
-              <li  class="wrapper-site__title">
-                <a href="#link">
-                  <img class="site-title__img" src="./images/teeth.svg" alt="teeth" >
-                  УЗИ диагностика
-                </a>
-              </li>
-              <li  class="wrapper-site__title">
-                <a href="#link">
-                  <img class="site-title__img" src="./images/bag.svg" alt="bag">
-                  УЗИ диагностика
-                </a>
-              </li>
-            </ul>
-          </div>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./images/doctor1.svg" alt="" width="1400" height="600" />
         </div>
-      </section>
-    </main>
+        <div class="swiper-slide">
+          <img src="./images/doctor2.svg" alt="" width="1400" height="600" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/doctor3.svg" alt="" width="1400" height="600" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/doctor4.svg" alt="" width="1400" height="600" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/doctor5.svg" alt="" width="1400" height="600" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/doctor6.svg" alt="" width="1400" height="600" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/fil.svg" alt="" width="1400" height="600" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/ukol.svg" alt="" width="1400" height="600" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/kalendar1.svg" alt="" width="1400" height="600" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/lekastva.svg" alt="" width="1400" height="600" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/teeth.svg" alt="" width="1400" height="600" >
+        </div>
+        <div class="swiper-slide">
+          <img
+            class="img"
+            src="./images/bag.svg"
+            alt=""
+            width="1400"
+            height="600"
+          />
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          type: "progressbar",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
   </body>
 </html>
