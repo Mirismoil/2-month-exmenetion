@@ -1,0 +1,28 @@
+.section-seorch{
+    padding-top: 200px;
+}
+.seorch-title {
+    text-align: center;
+    padding-bottom: 60px;
+}
+.seorch-title > h2 {
+    margin: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  color: #333333;
+}
+.seorch{
+    position: relative;
+    background-image: url("../../images/lupa.svg"), url("../../images/pet3.svg");
+    background-repeat: no-repeat;
+    background-position: 500px 500px , 500px 500px;
+    
+}
+.seorch-img{
+    position: absolute;
+    top: -175px;
+    left: 20px;
+    z-index: 1;
+}
